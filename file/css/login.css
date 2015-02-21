@@ -1,0 +1,57 @@
+body{
+    background: url(../images/login/login_bg.jpg) no-repeat top center;
+    /*overflow:hidden;*/
+
+}
+.header{
+    height: 150px;
+    border: 1px solid red;
+     margin-bottom: 10px;
+}
+.footer{
+    height: 50px;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+.wrpper{
+    margin: 10px;
+    padding: 10px;
+    height: 600px;
+    border: 1px solid red;
+}
+.left-content{
+    width: 600px;
+    float: left;
+    border: 1px solid red;
+    margin-right: 10px; 
+}
+.right-content{
+    width: 600px;
+    float: left;
+    border: 1px solid red;
+}
+.txt_field{
+     border: 3px solid #77D4FF;
+     height: 20px;
+     width: 220px;
+     padding: 2px;
+}
+.txt_lable{
+    color: #FFF;
+    font-weight: bold;
+}
+.btn{
+    font-weight: bold;
+    background-color: #77D4FF;
+    border: 1px solid #333;
+    height: 25px;
+    padding: 2px 3px 5px 3px;
+}
+.clear{
+    clear: both;
+}
+.error{
+    display: none;
+    color: #FF0000;
+    font-weight: bold;
+}
